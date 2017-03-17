@@ -26,10 +26,11 @@
     "handroll": "0.8.2"
   },
   "devDependencies": {
-    "cake-outdated": "0.1.5",
+    "cake-outdated": "0.1.6",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
+    "cake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
     "shortcake": "1.2.5"
   }
