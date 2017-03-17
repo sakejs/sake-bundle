@@ -16,11 +16,10 @@ task 'bootstrap', 'build project', ->
 task 'build', 'build project', ->
   do require './'
 
-  b = yield bundle
+  bundle.write
     entry:     'src/index.coffee'
     external:  true
-
-  b.write formats: ['cjs', 'es']
+    formats: ['cjs', 'es']
 
 task 'clean', 'clean project', ->
   exec 'rm -rf dist'
