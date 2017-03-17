@@ -1,4 +1,6 @@
 # cake-handroll [![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Dependency Status][dependency-img]][dependency-url] [![Gitter chat][gitter-img]][gitter-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zeekay/cake-bundle.svg)](https://greenkeeper.io/)
 Adds `handroll` helper to shortcake. Bundle up your JavaScript apps using
 [handroll](https://github.com/zeekay/handroll).
 
