@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/zeekay/cake-bundle#readme",
   "dependencies": {
-    "handroll": "0.8.1"
+    "handroll": "0.8.2"
   },
   "devDependencies": {
-    "cake-outdated": "0.1.3",
+    "cake-outdated": "0.1.5",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
