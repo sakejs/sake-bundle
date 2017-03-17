@@ -3,6 +3,8 @@ require 'shortcake'
 use 'cake-outdated'
 use 'cake-publish'
 use 'cake-version'
+use 'cake-yarn'
+
 use (require './') entry: 'src/index.coffee'
 
 task 'bootstrap', 'build project', ->
