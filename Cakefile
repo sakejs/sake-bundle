@@ -3,6 +3,7 @@ require 'shortcake'
 use 'cake-outdated'
 use 'cake-publish'
 use 'cake-version'
+use (require './') entry: 'src/index.coffee'
 
 task 'bootstrap', 'build project', ->
   handroll = require 'handroll'
@@ -15,11 +16,8 @@ task 'bootstrap', 'build project', ->
   yield bundle.write format: 'es'
 
 task 'build', 'build project', ->
-  do require './'
-
   bundle.write
-    entry:     'src/index.coffee'
-    external:  true
+    entry:   'src/index.coffee'
     formats: ['cjs', 'es']
 
 task 'clean', 'clean project', ->
