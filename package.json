@@ -1,0 +1,36 @@
+{
+  "name": "cake-bundle",
+  "version": "0.1.0",
+  "description": "Bundle up JavaScript Applications",
+  "main": "dist/lib.js",
+  "module": "dist/lib.mjs",
+  "js:next": "dist/lib.mjs",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "prepublish": "cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeekay/cake-bundle.git"
+  },
+  "keywords": [],
+  "author": "Zach Kelling <z@zeekay.io> (zeekay.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeekay/cake-bundle/issues"
+  },
+  "homepage": "https://github.com/zeekay/cake-bundle#readme",
+  "dependencies": {
+    "handroll": "0.7.9"
+  },
+  "devDependencies": {
+    "cake-outdated": "0.1.2",
+    "cake-publish": "0.1.5",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.9",
+    "coffee-script": "1.12.4",
+    "shortcake": "1.2.5"
+  }
+}
