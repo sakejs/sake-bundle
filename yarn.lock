@@ -390,9 +390,9 @@ cake-mocha@0.0.4:
     mocha "^2.3.4"
     postmortem "^0.2.4"
 
-cake-outdated@0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.7.tgz#3ad22447e1e22b9acd0362019738f1e940f16c11"
+cake-outdated@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.8.tgz#425e77ddc2b3952a2e81c9b3e7339eb92a5a8420"
   dependencies:
     executive "1.1.9"
     npm-check-updates "2.10.3"
@@ -767,7 +767,13 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-debug@*, debug@2.2.0, debug@^2.2.0:
+debug@*, debug@^2.2.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
+  dependencies:
+    ms "0.7.2"
+
+debug@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
@@ -1281,7 +1287,7 @@ got@^5.0.0:
     unzip-response "^1.0.2"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.9:
+graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -1309,9 +1315,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.8.3.tgz#bec5b9fd7536045587617526f6ec95f765db18de"
+handroll@0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.8.4.tgz#e548d815206aa9fa3906df68bf1d564fc3ab77c0"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -2096,6 +2102,10 @@ module-details-from-path@^1.0.3:
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
+
+ms@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
 multi-stage-sourcemap@^0.2.1:
   version "0.2.1"
@@ -3656,15 +3666,7 @@ wrappy@1, wrappy@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-write-file-atomic@^1.1.2:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-1.3.1.tgz#7d45ba32316328dd1ec7d90f60ebc0d845bb759a"
-  dependencies:
-    graceful-fs "^4.1.11"
-    imurmurhash "^0.1.4"
-    slide "^1.1.5"
-
-write-file-atomic@~1.2.0:
+write-file-atomic@^1.1.2, write-file-atomic@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-1.2.0.tgz#14c66d4e4cb3ca0565c28cf3b7a6f3e4d5938fab"
   dependencies:
