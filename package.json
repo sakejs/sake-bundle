@@ -26,7 +26,7 @@
     "handroll": "0.9.6"
   },
   "devDependencies": {
-    "cake-outdated": "0.1.10",
+    "cake-outdated": "0.1.11",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
