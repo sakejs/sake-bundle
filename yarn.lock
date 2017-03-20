@@ -410,12 +410,12 @@ cake-test@0.1.0:
     cake-coverage "0.1.3"
     cake-mocha "0.0.4"
 
-cake-version@0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/cake-version/-/cake-version-0.1.9.tgz#fa03cfd2db9153c7ae483cecfd92020bd0a23b11"
+cake-version@0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/cake-version/-/cake-version-0.1.11.tgz#8e544cf817516588509632f89ee5637985bbdf1c"
   dependencies:
-    executive "1.1.4"
-    semver "5.1.0"
+    executive "1.2.5"
+    semver "5.3.0"
 
 cake-yarn@0.1.1:
   version "0.1.1"
@@ -946,12 +946,6 @@ evp_bytestokey@^1.0.0:
   dependencies:
     create-hash "^1.1.1"
 
-executive@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/executive/-/executive-1.1.4.tgz#13ab2e8b05aa4891c6d7bd48289b12c92682d3ec"
-  dependencies:
-    shell-quote "^1.4.3"
-
 executive@1.1.9:
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/executive/-/executive-1.1.9.tgz#f590f740259b305b55609bb7003b29bd38b10819"
@@ -1274,9 +1268,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.7.tgz#56c0d076c78c7a60159f7e42fe890f609caa9c8a"
+handroll@0.9.9:
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.9.tgz#303d58512b20519cbb285c45322d32c3e636a4b4"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -1300,7 +1294,7 @@ handroll@0.9.7:
     rollup-plugin-sourcemaps "0.4.1"
     rollup-plugin-strip "1.1.1"
     rupture "0.6.2"
-    uglify-js "2.8.14"
+    uglify-js "git+https://github.com/mishoo/UglifyJS2.git#harmony"
 
 har-validator@~2.0.6:
   version "2.0.6"
@@ -2897,11 +2891,11 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-resolve@1.1.7, resolve@1.1.x:
+resolve@1.1.7, resolve@1.1.x, resolve@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@1.3.2, resolve@^1.1.6, resolve@^1.1.7:
+resolve@1.3.2, resolve@^1.1.6:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.2.tgz#1f0442c9e0cbb8136e87b9305f932f46c7f28235"
   dependencies:
@@ -3050,13 +3044,9 @@ semver-utils@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/semver-utils/-/semver-utils-1.1.1.tgz#27d92fec34d27cfa42707d3b40d025ae9855f2df"
 
-"semver@2 >=2.2.1 || 3.x || 4 || 5", "semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", "semver@^2.3.0 || 3.x || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@~5.3.0:
+"semver@2 >=2.2.1 || 3.x || 4 || 5", "semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@5.3.0, "semver@^2.3.0 || 3.x || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@~5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
-
-semver@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.1.0.tgz#85f2cf8550465c4df000cf7d86f6b054106ab9e5"
 
 semver@^4.1.0:
   version "4.3.6"
@@ -3362,9 +3352,17 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@2.8.14, uglify-js@^2.6, uglify-js@^2.6.1:
+uglify-js@^2.6, uglify-js@^2.6.1:
   version "2.8.14"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.14.tgz#25b15d1af39b21752ee33703adbf432e8bc8f77d"
+  dependencies:
+    source-map "~0.5.1"
+    uglify-to-browserify "~1.0.0"
+    yargs "~3.10.0"
+
+"uglify-js@git+https://github.com/mishoo/UglifyJS2.git#harmony":
+  version "2.8.14"
+  resolved "git+https://github.com/mishoo/UglifyJS2.git#7906033e82d66f2735f8626e98f0f7352d9b3d25"
   dependencies:
     source-map "~0.5.1"
     uglify-to-browserify "~1.0.0"
@@ -3527,13 +3525,17 @@ with@^5.0.0:
     acorn "^3.1.0"
     acorn-globals "^3.0.0"
 
-wordwrap@0.0.2, wordwrap@~0.0.2:
+wordwrap@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
 
 wordwrap@^1.0.0, wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
 
 wrappy@1, wrappy@~1.0.2:
   version "1.0.2"
