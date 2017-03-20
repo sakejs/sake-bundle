@@ -390,12 +390,13 @@ cake-mocha@0.0.4:
     mocha "^2.3.4"
     postmortem "^0.2.4"
 
-cake-outdated@0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.8.tgz#425e77ddc2b3952a2e81c9b3e7339eb92a5a8420"
+cake-outdated@0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.10.tgz#99cd3381debabe88eec618b31478ffac02d9f53b"
   dependencies:
-    executive "1.1.9"
+    executive "1.2.5"
     npm-check-updates "2.10.3"
+    tmp "0.0.31"
 
 cake-publish@0.1.5:
   version "0.1.5"
@@ -429,8 +430,8 @@ camelcase@^2.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
 
 caniuse-db@^1.0.30000631, caniuse-db@^1.0.30000634:
-  version "1.0.30000637"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000637.tgz#c02430cb29447eb561373bab360d834a2639b42c"
+  version "1.0.30000639"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000639.tgz#5982f70a54352adaf8901a772d2c68ca24f501aa"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -879,8 +880,8 @@ error-ex@^1.2.0:
     is-arrayish "^0.2.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.14"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.14.tgz#625bc9ab9cac0f6fb9dc271525823d1800b3d360"
+  version "0.10.15"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.15.tgz#c330a5934c1ee21284a7c081a86e5fd937c91ea6"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -954,6 +955,12 @@ executive@1.1.4:
 executive@1.1.9:
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/executive/-/executive-1.1.9.tgz#f590f740259b305b55609bb7003b29bd38b10819"
+  dependencies:
+    shell-quote "^1.4.3"
+
+executive@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/executive/-/executive-1.2.5.tgz#113a74c496ac01d3db23dd1c859d3c4d9bc27dbb"
   dependencies:
     shell-quote "^1.4.3"
 
@@ -1267,9 +1274,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.5.tgz#e1812a42381a32b84a2c93ec9b7eb951c01817d6"
+handroll@0.9.6:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.6.tgz#ace76ead74bdface6fc446671594c0286e6e062d"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -2353,7 +2360,7 @@ os-homedir@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
 
-os-tmpdir@^1.0.0:
+os-tmpdir@^1.0.0, os-tmpdir@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
@@ -2717,7 +2724,7 @@ read@1, read@~1.0.1, read@~1.0.7:
   dependencies:
     mute-stream "~0.0.4"
 
-"readable-stream@1 || 2", "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@~2.1.5:
+"readable-stream@1 || 2", readable-stream@^2.0.2, readable-stream@~2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.1.5.tgz#66fa8b720e1438b364681f2ad1a63c618448c9d0"
   dependencies:
@@ -2738,7 +2745,7 @@ readable-stream@^1.0.26-4, readable-stream@~1.0.26, readable-stream@~1.0.26-4:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@^2.0.0, readable-stream@^2.0.5, readable-stream@^2.2.2:
+readable-stream@^2.0.0, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.5, readable-stream@^2.2.2:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.6.tgz#8b43aed76e71483938d12a8d46c6cf1a00b1f816"
   dependencies:
@@ -3302,6 +3309,12 @@ through@2, through@~2.3.4:
 timed-out@^3.0.0:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-3.1.3.tgz#95860bfcc5c76c277f8f8326fd0f5b2e20eba217"
+
+tmp@0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
+  dependencies:
+    os-tmpdir "~1.0.1"
 
 to-iso-string@0.0.2:
   version "0.0.2"
