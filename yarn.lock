@@ -1268,9 +1268,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.9.15:
-  version "0.9.15"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.15.tgz#2e41c6f558204ec774a0ecd9421bbdc964e072a2"
+handroll@0.9.16:
+  version "0.9.16"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.16.tgz#ed05e651dd1c3a4639222c6ef2e4502f40f8e70c"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
