@@ -1268,9 +1268,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.10.1.tgz#72dc2b45837974a3faa69462fbdfa4dbadb5f9e3"
+handroll@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.11.0.tgz#3679021175c454e089f0bcdb213713f6bbe3d5e2"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -2892,11 +2892,11 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-resolve@1.1.7, resolve@1.1.x, resolve@^1.1.7:
+resolve@1.1.7, resolve@1.1.x:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@1.3.2, resolve@^1.1.6:
+resolve@1.3.2, resolve@^1.1.6, resolve@^1.1.7:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.2.tgz#1f0442c9e0cbb8136e87b9305f932f46c7f28235"
   dependencies:
@@ -3359,15 +3359,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@^2.6, uglify-js@^2.6.1:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.14.tgz#25b15d1af39b21752ee33703adbf432e8bc8f77d"
-  dependencies:
-    source-map "~0.5.1"
-    uglify-to-browserify "~1.0.0"
-    yargs "~3.10.0"
-
-"uglify-js@git+https://github.com/mishoo/UglifyJS2.git#harmony":
+uglify-js@^2.6, uglify-js@^2.6.1, "uglify-js@git+https://github.com/mishoo/UglifyJS2.git#harmony":
   version "2.8.14"
   resolved "git+https://github.com/mishoo/UglifyJS2.git#7906033e82d66f2735f8626e98f0f7352d9b3d25"
   dependencies:
