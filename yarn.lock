@@ -336,11 +336,11 @@ browserify-sign@^4.0.0:
     parse-asn1 "^5.0.0"
 
 browserslist@^1.7.6:
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-1.7.6.tgz#af98589ce6e7ab09618d29451faacb81220bd3ba"
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-1.7.7.tgz#0bd76704258be829b2398bb50e4b62d1a166b0b9"
   dependencies:
-    caniuse-db "^1.0.30000631"
-    electron-to-chromium "^1.2.5"
+    caniuse-db "^1.0.30000639"
+    electron-to-chromium "^1.2.7"
 
 buffer-es6@^4.9.1, buffer-es6@^4.9.2:
   version "4.9.3"
@@ -390,9 +390,9 @@ cake-mocha@0.0.4:
     mocha "^2.3.4"
     postmortem "^0.2.4"
 
-cake-outdated@0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.12.tgz#111acf5d9673de923044c5995151b9ad8f6b51ae"
+cake-outdated@0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/cake-outdated/-/cake-outdated-0.1.13.tgz#31f74c29452d916336eb02d955a1bc1328060fbf"
   dependencies:
     executive "1.2.5"
     npm-check-updates "2.10.3"
@@ -429,7 +429,7 @@ camelcase@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
 
-caniuse-db@^1.0.30000631, caniuse-db@^1.0.30000634:
+caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   version "1.0.30000639"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000639.tgz#5982f70a54352adaf8901a772d2c68ca24f501aa"
 
@@ -851,7 +851,7 @@ editor@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/editor/-/editor-1.0.0.tgz#60c7f87bd62bcc6a894fa8ccd6afb7823a24f742"
 
-electron-to-chromium@^1.2.5:
+electron-to-chromium@^1.2.7:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.2.7.tgz#4f748061407e478c76256d04496972b71f647407"
 
@@ -1268,9 +1268,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.11.0.tgz#3679021175c454e089f0bcdb213713f6bbe3d5e2"
+handroll@0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.11.2.tgz#72e5667b3ff4033f14896407962a780e7de26de9"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -3359,7 +3359,15 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@^2.6, uglify-js@^2.6.1, "uglify-js@git+https://github.com/mishoo/UglifyJS2.git#harmony":
+uglify-js@^2.6, uglify-js@^2.6.1:
+  version "2.8.14"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.14.tgz#25b15d1af39b21752ee33703adbf432e8bc8f77d"
+  dependencies:
+    source-map "~0.5.1"
+    uglify-to-browserify "~1.0.0"
+    yargs "~3.10.0"
+
+"uglify-js@git+https://github.com/mishoo/UglifyJS2.git#harmony":
   version "2.8.14"
   resolved "git+https://github.com/mishoo/UglifyJS2.git#7906033e82d66f2735f8626e98f0f7352d9b3d25"
   dependencies:
