@@ -1268,9 +1268,9 @@ handlebars@^4.0.1:
   optionalDependencies:
     uglify-js "^2.6"
 
-handroll@0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.9.tgz#303d58512b20519cbb285c45322d32c3e636a4b4"
+handroll@0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/handroll/-/handroll-0.9.10.tgz#a208033f376859fae0cf7c67db223151ef3837a4"
   dependencies:
     autoprefixer "6.7.7"
     chalk "1.1.3"
@@ -1288,7 +1288,7 @@ handroll@0.9.9:
     rollup-plugin-json "2.1.0"
     rollup-plugin-node-builtins "2.1.0"
     rollup-plugin-node-globals "1.1.0"
-    rollup-plugin-node-resolve-magic "0.1.6"
+    rollup-plugin-node-resolve-magic "0.1.8"
     rollup-plugin-pug "0.1.3"
     rollup-plugin-sizes "0.3.0"
     rollup-plugin-sourcemaps "0.4.1"
@@ -2891,11 +2891,11 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-resolve@1.1.7, resolve@1.1.x, resolve@^1.1.7:
+resolve@1.1.7, resolve@1.1.x:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@1.3.2, resolve@^1.1.6:
+resolve@1.3.2, resolve@^1.1.6, resolve@^1.1.7:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.2.tgz#1f0442c9e0cbb8136e87b9305f932f46c7f28235"
   dependencies:
@@ -2967,9 +2967,9 @@ rollup-plugin-node-globals@1.1.0:
     process-es6 "^0.11.3"
     rollup-pluginutils "^1.5.2"
 
-rollup-plugin-node-resolve-magic@0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve-magic/-/rollup-plugin-node-resolve-magic-0.1.6.tgz#7bbb7029ca1e2ea48cd5c4af07cf0ef96978a93d"
+rollup-plugin-node-resolve-magic@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve-magic/-/rollup-plugin-node-resolve-magic-0.1.8.tgz#fe60722600bb2733d2a6685d0f2605fa1b630495"
   dependencies:
     browser-resolve "1.11.2"
     builtin-modules "1.1.1"
