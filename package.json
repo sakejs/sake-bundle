@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "cake-outdated": "0.1.14",
-    "cake-publish": "0.1.9",
+    "cake-publish": "0.1.10",
     "cake-test": "0.1.0",
     "cake-version": "0.1.11",
     "cake-yarn": "0.1.1",
