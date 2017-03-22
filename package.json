@@ -6,7 +6,8 @@
   "module": "dist/lib.mjs",
   "js:next": "dist/lib.mjs",
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "scripts": {
     "prepublishOnly": "cake build"
