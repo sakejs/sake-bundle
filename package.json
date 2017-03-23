@@ -1,6 +1,6 @@
 {
   "name": "cake-bundle",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Bundle up JavaScript Applications",
   "main": "dist/lib.js",
   "module": "dist/lib.mjs",
