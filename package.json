@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/zeekay/cake-bundle#readme",
   "dependencies": {
-    "handroll": "0.12.14"
+    "handroll": "0.12.16"
   },
   "devDependencies": {
     "cake-outdated": "0.1.16",
     "cake-publish": "0.1.10",
     "cake-test": "0.1.0",
-    "cake-version": "0.1.11",
+    "cake-version": "0.1.14",
     "cake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
-    "shortcake": "1.2.5"
+    "shortcake": "1.2.6"
   }
 }
