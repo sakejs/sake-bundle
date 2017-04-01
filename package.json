@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zeekay/cake-bundle#readme",
   "dependencies": {
-    "handroll": "^0.12.17 < 1.0.x"
+    "handroll": "^0.12.25 < 1.0.x"
   },
   "devDependencies": {
     "cake-outdated": "0.1.16",
