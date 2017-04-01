@@ -10,11 +10,8 @@ task 'build', 'build project', ->
 
   handroll.write
     entry:    'src/index.coffee'
-    external: true
-    formats:  ['cjs', 'es']
     compilers:
-      coffee:
-        version: 1
+      coffee: version: 1
 
 task 'clean', 'clean project', ->
   exec 'rm -rf dist'

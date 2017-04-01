@@ -2,11 +2,11 @@
   "name": "cake-bundle",
   "version": "0.2.20",
   "description": "Bundle up JavaScript Applications",
-  "main": "dist/lib.js",
-  "module": "dist/lib.mjs",
-  "js:next": "dist/lib.mjs",
+  "main": "lib/cake-bundle.js",
+  "module": "lib/cake-bundle.mjs",
+  "js:next": "lib/cake-bundle.mjs",
   "files": [
-    "dist/",
+    "lib/",
     "src/"
   ],
   "scripts": {
