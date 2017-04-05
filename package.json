@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "author": "Hanzo, Inc. <hi@hanzo.io>",
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/sakejs/sake-bundle/issues"
   },
@@ -27,12 +27,12 @@
     "handroll": "^0.12.25 < 1.0.x"
   },
   "devDependencies": {
-    "sake-outdated": "0.1.18",
-    "sake-publish": "0.1.10",
-    "sake-test": "0.1.0",
-    "sake-version": "0.1.15",
-    "sake-yarn": "0.1.1",
+    "cake-outdated": "0.1.18",
+    "cake-publish": "0.1.10",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.15",
+    "cake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
-    "shortsake": "1.2.8"
+    "shortcake": "1.2.8"
   }
 }
