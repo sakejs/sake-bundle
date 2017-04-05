@@ -1,38 +1,38 @@
 {
-  "name": "cake-bundle",
+  "name": "sake-bundle",
   "version": "0.2.21",
   "description": "Bundle up JavaScript Applications",
-  "main": "lib/cake-bundle.js",
-  "module": "lib/cake-bundle.mjs",
-  "js:next": "lib/cake-bundle.mjs",
+  "main": "lib/sake-bundle.js",
+  "module": "lib/sake-bundle.mjs",
+  "js:next": "lib/sake-bundle.mjs",
   "files": [
     "lib/",
     "src/"
   ],
   "scripts": {
-    "prepublishOnly": "cake build"
+    "prepublishOnly": "sake build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeekay/cake-bundle.git"
+    "url": "git+https://github.com/sakejs/sake-bundle.git"
   },
   "keywords": [],
-  "author": "Zach Kelling <z@zeekay.io> (zeekay.io)",
+  "author": "Hanzo, Inc <hi@hanzo.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeekay/cake-bundle/issues"
+    "url": "https://github.com/sakejs/sake-bundle/issues"
   },
-  "homepage": "https://github.com/zeekay/cake-bundle#readme",
+  "homepage": "https://github.com/sakejs/sake-bundle#readme",
   "dependencies": {
     "handroll": "^0.12.25 < 1.0.x"
   },
   "devDependencies": {
-    "cake-outdated": "0.1.18",
-    "cake-publish": "0.1.10",
-    "cake-test": "0.1.0",
-    "cake-version": "0.1.15",
-    "cake-yarn": "0.1.1",
+    "sake-outdated": "0.1.18",
+    "sake-publish": "0.1.10",
+    "sake-test": "0.1.0",
+    "sake-version": "0.1.15",
+    "sake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
-    "shortcake": "1.2.8"
+    "shortsake": "1.2.8"
   }
 }
