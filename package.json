@@ -33,6 +33,6 @@
     "cake-version": "0.1.15",
     "cake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
-    "shortcake": "1.2.8"
+    "sake-core": "1.3.4"
   }
 }
