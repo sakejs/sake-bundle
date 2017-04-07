@@ -1,7 +1,7 @@
-use 'cake-outdated'
-use 'cake-publish'
-use 'cake-version'
-use 'cake-yarn'
+# use 'sake-outdated'
+use 'sake-publish'
+use 'sake-version'
+# use 'sake-yarn'
 
 task 'build', 'build project', ->
   handroll = require 'handroll'
