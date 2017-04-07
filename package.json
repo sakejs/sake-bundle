@@ -23,9 +23,6 @@
     "url": "https://github.com/sakejs/sake-bundle/issues"
   },
   "homepage": "https://github.com/sakejs/sake-bundle#readme",
-  "dependencies": {
-    "handroll": "^0.12.25 < 1.0.x"
-  },
   "devDependencies": {
     "cake-outdated": "0.1.18",
     "cake-publish": "0.1.10",
@@ -34,5 +31,8 @@
     "cake-yarn": "0.1.1",
     "coffee-script": "1.12.4",
     "sake-core": "1.3.4"
+  },
+  "dependencies": {
+    "handroll": "0.13.1"
   }
 }
