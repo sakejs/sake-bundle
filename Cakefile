@@ -1,6 +1,9 @@
+use 'sake-chai'
+use 'sake-mocha'
 use 'sake-outdated'
 use 'sake-publish'
 use 'sake-version'
+
 # use 'sake-yarn'
 
 task 'build', 'build project', ->
