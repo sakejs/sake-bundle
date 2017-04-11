@@ -41,9 +41,9 @@
     "sake-outdated": "0.1.18",
     "sake-publish": "0.1.11",
     "sake-version": "0.1.16",
-    "sake-yarn": "0.1.1"
+    "sake-yarn": "0.1.2"
   },
   "dependencies": {
-    "handroll": "0.13.8"
+    "handroll": "0.13.9"
   }
 }
