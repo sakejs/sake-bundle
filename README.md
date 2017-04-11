@@ -30,7 +30,7 @@ task('build', 'build project', => {
 [build-img]:        https://img.shields.io/travis/sakejs/sake-bundle.svg
 [build-url]:        https://travis-ci.org/sakejs/sake-bundle
 [chat-img]:         https://badges.gitter.im/join-chat.svg
-[chat-url]:         https://gitter.im/sakejs/hi
+[chat-url]:         https://gitter.im/sakejs/chat
 [coverage-img]:     https://coveralls.io/repos/sakejs/sake-bundle/badge.svg?branch=master&service=github
 [coverage-url]:     https://coveralls.io/github/sakejs/sake-bundle?branch=master
 [dependencies-img]: https://david-dm.org/sakejs/sake-bundle.svg
