@@ -7,8 +7,8 @@
 [![license][license-img]][license-url]
 [![chat][chat-img]][chat-url]
 
-Adds `bundle` task and global to Sake. Bundle up your JavaScript apps using
-[Handroll](https://github.com/zeekay/handroll).
+Add `bundle` task and global to your Sakefile. Bundle up your JavaScript apps
+using [Handroll](https://github.com/zeekay/handroll).
 
 ## Install
 ```bash
