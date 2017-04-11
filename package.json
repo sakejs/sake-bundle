@@ -19,7 +19,13 @@
     "type": "git",
     "url": "git+https://github.com/sakejs/sake-bundle.git"
   },
-  "keywords": [],
+  "keywords": [
+    "bundle",
+    "bundling",
+    "handroll",
+    "sake",
+    "tasks"
+  ],
   "author": "Hanzo, Inc. <hi@hanzo.io>",
   "license": "BSD-3-Clause",
   "bugs": {
