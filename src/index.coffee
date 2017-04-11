@@ -1,5 +1,4 @@
 import handroll from 'handroll'
-import path     from 'path'
 
 bundle = (opts) ->
   handroll.bundle opts
