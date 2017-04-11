@@ -1,6 +1,6 @@
 {
   "name": "sake-bundle",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Bundle up JavaScript Applications",
   "main": "lib/sake-bundle.js",
   "module": "lib/sake-bundle.mjs",
