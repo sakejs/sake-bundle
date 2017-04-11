@@ -44,6 +44,6 @@
     "sake-yarn": "0.1.1"
   },
   "dependencies": {
-    "handroll": "0.13.7"
+    "handroll": "0.13.8"
   }
 }
