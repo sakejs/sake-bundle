@@ -1,52 +1,43 @@
-# cake-handroll [![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Dependency Status][dependency-img]][dependency-url] [![Gitter chat][gitter-img]][gitter-url]
-Adds `handroll` helper to shortcake. Bundle up your JavaScript apps using
-[handroll](https://github.com/zeekay/handroll).
+# sake-bundle
+
+[![npm][npm-img]][npm-url]
+[![build][build-img]][build-url]
+[![dependencies][dependencies-img]][dependencies-url]
+[![downloads][downloads-img]][downloads-url]
+[![license][license-img]][license-url]
+[![chat][chat-img]][chat-url]
+
+Adds `bundle` task and global to Sake. Bundle up your JavaScript apps using
+[Handroll](https://github.com/zeekay/handroll).
 
 ## Install
 ```bash
-$ npm install cake-bundle --save-dev
+$ npm install sake-bundle --save-dev
 ```
 
 ## Usage
-```coffee
-require 'shortcake'
+```javascript
+use('sake-bundle')
 
-use 'cake-bundle'
-
-task 'build',         'build project', ['build:lib', 'build:browser']
-
-task 'build:lib',     'build project as library for bundlers + node', ->
-  bundled = await bundle
-    entry:    'src/index.coffee'
-    external: true
-
-  bundled.write
-    format: 'es'
-  bundled.write
-    format: 'cjs'
-
-task 'build:browser', 'build project as single-minified js file'
-  bundle
-    entry:  'src/browser.coffee'
-    dest:   'project.min.js'
-    format: 'browser'
-    minify: true
-
+task('build', 'build project', => {
+  bundle.write({entry: 'src/index.js'})
+})
 ```
 
-[travis-img]:     https://img.shields.io/travis/zeekay/cake-bundle.svg
-[travis-url]:     https://travis-ci.org/zeekay/cake-bundle
-[coveralls-img]:  https://coveralls.io/repos/zeekay/cake-bundle/badge.svg?branch=master&service=github
-[coveralls-url]:  https://coveralls.io/github/zeekay/cake-bundle?branch=master
-[dependency-url]: https://david-dm.org/zeekay/cake-bundle
-[dependency-img]: https://david-dm.org/zeekay/cake-bundle.svg
-[npm-img]:        https://img.shields.io/npm/v/cake-bundle.svg
-[npm-url]:        https://www.npmjs.com/package/cake-bundle
-[gitter-img]:     https://badges.gitter.im/join-chat.svg
-[gitter-url]:     https://gitter.im/zeekay/hi
+## License
+[BSD][license-url]
 
-<!-- not used -->
-[downloads-img]:     https://img.shields.io/npm/dm/cake-bundle.svg
-[downloads-url]:     http://badge.fury.io/js/cake-bundle
-[devdependency-img]: https://david-dm.org/zeekay/cake-bundle/dev-status.svg
-[devdependency-url]: https://david-dm.org/zeekay/cake-bundle#info=devDependencies
+[build-img]:        https://img.shields.io/travis/sakejs/sake-bundle.svg
+[build-url]:        https://travis-ci.org/sakejs/sake-bundle
+[chat-img]:         https://badges.gitter.im/join-chat.svg
+[chat-url]:         https://gitter.im/sakejs/hi
+[coverage-img]:     https://coveralls.io/repos/sakejs/sake-bundle/badge.svg?branch=master&service=github
+[coverage-url]:     https://coveralls.io/github/sakejs/sake-bundle?branch=master
+[dependencies-img]: https://david-dm.org/sakejs/sake-bundle.svg
+[dependencies-url]: https://david-dm.org/sakejs/sake-bundle
+[downloads-img]:    https://img.shields.io/npm/dm/sake-bundle.svg
+[downloads-url]:    http://badge.fury.io/js/sake-bundle
+[license-img]:      https://img.shields.io/npm/l/sake-bundle.svg
+[license-url]:      https://github.com/sakejs/sake-bundle/blob/master/LICENSE
+[npm-img]:          https://img.shields.io/npm/v/sake-bundle.svg
+[npm-url]:          https://www.npmjs.com/package/sake-bundle
