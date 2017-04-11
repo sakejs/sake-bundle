@@ -12,4 +12,4 @@ task 'build', 'build project', ->
       coffee: version: 1
 
 task 'clean', 'clean project', ->
-  exec 'rm -rf dist'
+  exec 'rm -rf lib'
