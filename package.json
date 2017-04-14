@@ -35,8 +35,8 @@
   "devDependencies": {
     "coffee-script": "1.12.5",
     "sake-chai": "0.2.3",
-    "sake-cli": "0.3.2",
-    "sake-core": "1.3.9",
+    "sake-cli": "0.4.3",
+    "sake-core": "1.3.16",
     "sake-mocha": "0.1.6",
     "sake-outdated": "0.1.20",
     "sake-publish": "0.1.12",
@@ -45,6 +45,6 @@
     "sake-yarn": "0.1.2"
   },
   "dependencies": {
-    "handroll": "0.14.2"
+    "handroll": "0.14.3"
   }
 }
