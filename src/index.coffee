@@ -13,7 +13,6 @@ export default (opts = {}) ->
     Object.defineProperty global, 'Bundle',
       get: ->     handroll().Bundle
       enumerable: true
-      writable:   false
 
   if opts.entry?
     task 'bundle', 'bundle javascript', ->
