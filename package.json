@@ -1,6 +1,6 @@
 {
   "name": "sake-bundle",
-  "version": "0.4.20",
+  "version": "0.4.21",
   "description": "Add bundle task and global to your Sakefile",
   "main": "lib/sake-bundle.js",
   "module": "lib/sake-bundle.mjs",
