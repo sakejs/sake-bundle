@@ -35,7 +35,7 @@
   "devDependencies": {
     "coffee-script": "1.12.5",
     "sake-chai": "0.2.5",
-    "sake-cli": "0.5.1",
+    "sake-cli": "0.5.2",
     "sake-mocha": "0.1.7",
     "sake-outdated": "0.1.21",
     "sake-publish": "0.1.12",
