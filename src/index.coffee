@@ -1,15 +1,19 @@
-import handroll from 'handroll'
+handroll = ->
+  require 'handroll'
 
 bundle = (opts) ->
-  handroll.bundle opts
+  handroll().bundle opts
 
 bundle.write = (opts) ->
-  handroll.write opts
+  handroll().write opts
 
 export default (opts = {}) ->
   unless opts.global == false
     global.bundle = bundle
-    global.Bundle = handroll.Bundle
+    Object.defineProperty global, 'Bundle',
+      get: ->     handroll().Bundle
+      enumerable: true
+      writable:   false
 
   if opts.entry?
     task 'bundle', 'bundle javascript', ->
