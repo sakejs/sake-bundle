@@ -1,7 +1,7 @@
 {
   "name": "sake-bundle",
   "version": "0.5.0",
-  "description": "Add bundle task and global to your Sakefile",
+  "description": "Add bundle task and helpers to your Sakefile",
   "main": "lib/sake-bundle.js",
   "module": "lib/sake-bundle.mjs",
   "js:next": "lib/sake-bundle.mjs",
@@ -32,6 +32,9 @@
     "url": "https://github.com/sakejs/sake-bundle/issues"
   },
   "homepage": "https://github.com/sakejs/sake-bundle#readme",
+  "dependencies": {
+    "handroll": "^0.14.8"
+  },
   "devDependencies": {
     "coffee-script": "1.12.5",
     "sake-cli": "^0.5.5",
@@ -40,8 +43,5 @@
     "sake-test": "^0.1.5",
     "sake-version": "^0.1.19",
     "sake-yarn": "^0.1.2"
-  },
-  "dependencies": {
-    "handroll": "^0.14.8"
   }
 }
