@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/sakejs/sake-bundle#readme",
   "dependencies": {
-    "handroll": "^0.14.8"
+    "handroll": "^0.14.9"
   },
   "devDependencies": {
     "coffee-script": "1.12.5",
