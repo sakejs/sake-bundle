@@ -8,10 +8,7 @@ use 'sake-version'
 task 'build', 'build project', ->
   handroll = require 'handroll'
 
-  handroll.write
-    entry: 'src/index.coffee'
-    compilers:
-      coffee: version: 1
+  handroll.write entry: 'src/index.coffee'
 
 task 'clean', 'clean project', ->
   exec 'rm -rf lib'
