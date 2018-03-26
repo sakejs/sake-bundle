@@ -38,8 +38,8 @@
   },
   "devDependencies": {
     "sake-cli": "^0.6.5",
-    "sake-outdated": "^0.2.1",
-    "sake-publish": "^0.1.16",
+    "sake-outdated": "^0.2.2",
+    "sake-publish": "^0.1.17",
     "sake-test": "^0.2.1",
     "sake-version": "^0.1.19"
   }
