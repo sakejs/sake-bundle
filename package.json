@@ -1,6 +1,6 @@
 {
   "name": "sake-bundle",
-  "version": "0.6.10",
+  "version": "0.6.11",
   "description": "Add bundle task and helpers to your Sakefile",
   "main": "lib/sake-bundle.js",
   "module": "lib/sake-bundle.mjs",
