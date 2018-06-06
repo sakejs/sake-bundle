@@ -33,10 +33,10 @@
   },
   "homepage": "https://github.com/sakejs/sake-bundle#readme",
   "dependencies": {
-    "handroll": "^0.17.5"
+    "handroll": "^0.17.11"
   },
   "devDependencies": {
-    "coffeescript": "^2.3.0",
+    "coffeescript": "^2.3.1",
     "sake-cli": "^0.7.2",
     "sake-outdated": "^0.3.0",
     "sake-publish": "^0.1.17",
